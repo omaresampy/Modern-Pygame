@@ -1163,7 +1163,7 @@ class BatchGroup:
         ox = camera.rect.x if camera else 0
         oy = camera.rect.y if camera else 0
 
-        # ⚡ HARD CAP: 3000 كائن كحد أقصى للرسم
+        # ⚡ HARD CAP: 3000 كائن
         MAX_DRAW = 3000
         if c > MAX_DRAW:
             skip = c // MAX_DRAW + 1
